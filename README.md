@@ -24,7 +24,27 @@
 - **测试框架**: [Vitest](https://vitest.dev/)
 - **代码规范**: ESLint, Prettier
 
-## 🚀 开始使用
+## 📦 下载与安装
+
+### 最新版本: v0.1.0
+
+您可以从 [GitHub Releases](https://github.com/lanco911/Common-Area-Calculation-Tool/releases) 页面下载最新版本的安装文件。
+
+直接下载链接: [Common Area Calculation Tool 0.0.0.exe](https://github.com/lanco911/Common-Area-Calculation-Tool/releases/download/v0.1.0/Common%20Area%20Calculation%20Tool%200.0.0.exe)
+
+### 系统要求
+
+- Windows 10 或更高版本
+- 至少 4GB RAM
+- 100MB 可用磁盘空间
+
+### 安装说明
+
+1. 下载 `Common Area Calculation Tool 0.0.0.exe` 文件
+2. 运行安装程序并按照提示完成安装
+3. 从开始菜单启动应用程序
+
+## 🚀 开发环境
 
 请确保您的开发环境中已安装 [Node.js](https://nodejs.org/) (建议版本 18.x 或更高)。
 
@@ -58,6 +78,8 @@ npm run electron:dist
 ```
 
 构建完成后，您可以在 `release` 目录下找到打包好的文件（例如 `.exe` 或 `.dmg`）。
+
+如需创建GitHub release并上传exe文件，请参考 [RELEASE_GUIDE.md](./RELEASE_GUIDE.md) 中的详细说明。
 
 ## 🧪 运行测试
 
